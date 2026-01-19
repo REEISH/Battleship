@@ -1,0 +1,30 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "Implementation of Game Battleship",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "format": "npm run prettier:fix && npm run lint:fix",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@eslint/js": "^9.39.2",
+    "babel-jest": "^30.2.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.39.2",
+    "eslint-webpack-plugin": "^5.0.2",
+    "globals": "^17.0.0",
+    "ignore-emit-webpack-plugin": "^2.0.6",
+    "jest": "^30.2.0",
+    "mini-css-extract-plugin": "^2.10.0"
+  }
+}
