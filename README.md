@@ -12,11 +12,10 @@ A classic, interactive web-based adaptation of the iconic board game Battleship.
 * **Real-time Feedback:** Visual indicators for hits, misses, and sunken ships.
 
 ## Demo
-*(Include a link to your live demo here, e.g., GitHub Pages, Vercel, or Netlify)*
+
 
 > **Live Preview:** [Play Battleship Here](https://reeish.github.io/Battleship/) 
 
-*(Replace the link above with a path to a screenshot of your game)*
 
 ## Technologies Used
 
