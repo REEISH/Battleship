@@ -1,2 +1,70 @@
-# Battleship
-Implementation of Game Battleship
+# Battleship 
+
+A classic, interactive web-based adaptation of the iconic board game Battleship. Strategically place your fleet, fire at enemy coordinates, and be the first to sink all your opponent's ships! 
+
+## Features
+
+* **Interactive Gameboard:** A fully responsive and dynamic grid system for both the player and the opponent.
+* **Two Game Modes:** 
+  * **Player vs. Computer:** Test your tactical skills against an AI opponent.
+  * **Player vs. Player (Local):** Pass and play against a human opponent on the same screen.
+* **Drag-and-Drop Ship Placement:** Intuitively build your fleet. Click, drag, and drop your ships directly onto the grid before the battle begins. 
+* **Real-time Feedback:** Visual indicators for hits, misses, and sunken ships.
+
+## Demo
+*(Include a link to your live demo here, e.g., GitHub Pages, Vercel, or Netlify)*
+
+> **Live Preview:** [Play Battleship Here](#) 
+
+![Game Screenshot](link-to-your-screenshot-image.png)
+*(Replace the link above with a path to a screenshot of your game)*
+
+## Technologies Used
+
+* **HTML5:** Game structure and grid layout.
+* **CSS3:** Styling, grid animations, and drag-and-drop visual states.
+* **JavaScript (ES6):** Game logic, drag-and-drop API integration, AI opponent logic, and DOM manipulation.
+
+## Installation & Setup
+
+To get a local copy up and running, follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/battleship-game.git](https://github.com/your-username/battleship-game.git)
+   ```
+2. **Navigate to the project directory:**
+   ```bash
+   cd battleship-game
+   ```
+3. **Run the game:**
+   Simply open the `index.html` file in your preferred web browser. No local server or build tools are required.
+
+## How to Play
+
+1. **Choose your Game Mode:** Select whether you want to play against the Computer or another Human.
+2. **Deploy Your Fleet:** Use your mouse to drag your ships from the dock and drop them onto your grid. You can rotate ships by clicking on them before dragging.
+3. **Lock Coordinates:** Once all ships are placed, confirm your board to start the game.
+4. **Fire:** Take turns clicking on the enemy's grid to guess where their ships are hiding. 
+5. **Win the Game:** The first player to successfully find and sink all enemy ships wins!
+
+## Roadmap & Future Enhancements
+
+- [ ] Add an Online Multiplayer mode using WebSockets (Socket.io).
+- [ ] Implement a "Smart" AI that uses probability grids instead of random guessing.
+- [ ] Add sound effects for hits, misses, and victory/defeat screens.
+- [ ] Mobile touch support for the drag-and-drop placement phase.
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! 
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
