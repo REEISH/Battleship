@@ -29,11 +29,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/battleship-game.git](https://github.com/REEISH/battleship-game.git)
+   git clone https://github.com/REEISH/Battleship.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd src/battleship-game
+   cd src/Battleship
    ```
 3. **Run the game:**
    Simply open the `index.html` file in your preferred web browser. No local server or build tools are required.
