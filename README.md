@@ -14,16 +14,15 @@ A classic, interactive web-based adaptation of the iconic board game Battleship.
 ## Demo
 *(Include a link to your live demo here, e.g., GitHub Pages, Vercel, or Netlify)*
 
-> **Live Preview:** [Play Battleship Here](#) 
+> **Live Preview:** [Play Battleship Here](https://reeish.github.io/Battleship/) 
 
-![Game Screenshot](link-to-your-screenshot-image.png)
 *(Replace the link above with a path to a screenshot of your game)*
 
 ## Technologies Used
 
 * **HTML5:** Game structure and grid layout.
 * **CSS3:** Styling, grid animations, and drag-and-drop visual states.
-* **JavaScript (ES6):** Game logic, drag-and-drop API integration, AI opponent logic, and DOM manipulation.
+* **JavaScript (ES6):** Game logic, drag-and-drop integration, opponent logic, and DOM manipulation.
 
 ## Installation & Setup
 
@@ -31,11 +30,11 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/battleship-game.git](https://github.com/your-username/battleship-game.git)
+   git clone [https://github.com/your-username/battleship-game.git](https://github.com/REEISH/battleship-game.git)
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd battleship-game
+   cd src/battleship-game
    ```
 3. **Run the game:**
    Simply open the `index.html` file in your preferred web browser. No local server or build tools are required.
@@ -54,16 +53,6 @@ To get a local copy up and running, follow these simple steps:
 - [ ] Implement a "Smart" AI that uses probability grids instead of random guessing.
 - [ ] Add sound effects for hits, misses, and victory/defeat screens.
 - [ ] Mobile touch support for the drag-and-drop placement phase.
-
-## Contributing
-
-Contributions, issues, and feature requests are welcome! 
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
